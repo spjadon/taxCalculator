@@ -16,8 +16,8 @@
 		$mail->IsSMTP();
 		$mail->Host = 'smtp.gmail.com';
 		$mail->SMTPAuth = true;
-		$mail->Username = 'abc@gmail.com';   
-		$mail->Password = '******';
+		$mail->Username = 'abc@gmail.com'; //add your email  
+		$mail->Password = '******'; //enter your password
 		$mail->SMTPSecure = 'tls';
 		$mail->Port     = 587;
 		$mail->SetFrom('abc@gmail.com', 'Tax Calculator and Submission');
