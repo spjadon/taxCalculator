@@ -16,12 +16,12 @@
 		$mail->IsSMTP();
 		$mail->Host = 'smtp.gmail.com';
 		$mail->SMTPAuth = true;
-		$mail->Username = 'project.taxcalculator@gmail.com';
-		$mail->Password = 'Jadon@1997';
+		$mail->Username = 'abc@gmail.com';   
+		$mail->Password = '******';
 		$mail->SMTPSecure = 'tls';
 		$mail->Port     = 587;
-		$mail->SetFrom('project.taxcalculator@gmail.com', 'Tax Calculator and Submission');
-		$mail->AddReplyTo('sandeepjadonk97@gmail.com', 'Sandeep Jadon');
+		$mail->SetFrom('abc@gmail.com', 'Tax Calculator and Submission');
+		$mail->AddReplyTo('another@gmail.com', 'Sandeep Jadon');
 		$mail->IsHTML(true);
 		
 		//If the signup button is clicked	
